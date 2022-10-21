@@ -3,3 +3,39 @@
     margin: 0;
     padding: 0;  
 }
+
+body{
+    background-image: url('../img/freetileset/png/BG/BG.png') ;
+}
+
+#player{
+    position: absolute;
+    background-image: url("../img/Idle1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 167px;
+    width: 100px;
+    bottom: 600px;
+}
+
+
+#ground{
+   // background-color: brown;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  //  background-image: url('../img/freetileset/png/Tiles/1.png') ;
+   
+
+}
+
+.turn{
+    transform: rotateY(180deg);
+}
+
+
+
+
+
